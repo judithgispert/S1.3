@@ -7,10 +7,10 @@ public class N1Ex1 {
 	
 	public static void main (String[]args) {
 		
-		//Creating ArrayList
+		
 		ArrayList <Month> monthList = new ArrayList <Month>();
 		
-		//Creating objects and adding to ArrayList
+		
 		Month month1 = new Month ("January");
 		monthList.add(month1);
 		Month month2 = new Month ("February");
@@ -34,11 +34,11 @@ public class N1Ex1 {
 		Month month12 = new Month ("December");
 		monthList.add(month12);
 		
-		//Creating August and adding to correct place
+		
 		Month month8 = new Month ("August");
 		monthList.add(7, month8);
 		
-		//Adding ArrayList to HASHSET using addAll()
+		
 		HashSet<Month> hashSet = new HashSet<Month>();
 		hashSet.addAll(monthList);
 		
