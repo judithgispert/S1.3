@@ -22,18 +22,12 @@ public class N1Ex2 {
 		
 		List<Integer> list2 = new ArrayList <Integer>();
 		
-		for (int cont = list1.size()-1; cont >= 0; cont--) {
-			list2.add(list1.get(cont));
+		ListIterator<Integer> listIt = list1.listIterator(list1.size());
+		while(listIt.hasPrevious()) {
+			list2.add(listIt.previous());
 		}
 		
-		
-		ListIterator<Integer> listIt = list1.listIterator();
-		while(listIt.hasNext()) {
-			System.out.println(listIt.next());
-		}
-		while(listIt.hasNext()) {
-			list2.add(listIt.next());
-		}
+		System.out.println(list2);
 		
 	}
 }
