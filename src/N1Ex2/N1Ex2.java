@@ -1,11 +1,8 @@
 package N1Ex2;
 import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
 import java.util.List;
 import java.util.ListIterator;
 
-import N1Ex1.Month;
 
 public class N1Ex2 {
 
